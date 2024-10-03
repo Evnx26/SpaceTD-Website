@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceTD-Vehicles</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./source/SpaceTD Logo.png">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <img class="logospace" src="./source/SpaceTD Logo.png" height="150px" />
+            <div class="borgir">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        <ul class="ul-navbar">
+            <div class="closeMenu">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <li class="li-navbar"><a href="home.html">Home</a></li>
+            <li class="li-navbar"><a href="vehicles.html">Vehicles</a></li>
+            <li class="li-navbar"><a href="program.html">Program</a></li>
+            <li class="li-navbar"><a href="launches.html">Launches</a></li>
+            <li class="li-navbar"><a href="login.html">Register</a></li>
+        </ul>
+        
+        </div> 
+    </header>
+    <div class="earth">
+       <ul class="vehicle">
+            <a href="./vehicles.html#falcon9"><li class="vehiclesname">FALCON 9</li></a>
+            <a href="./vehicles.html#dragonvehicles"><li class="vehiclesname">DRAGON</li></a>
+            <a href="./vehicles.html#starshipvehicles"><li class="vehiclesname">STARSHIP</li></a>
+       </ul>
+    </div>
+
+    <div class="falcon9" id="falcon9">
+        <div class="left">
+            <p class="titlevehicles">FALCON 9</p>
+            <p class="overview">OVERVIEW</p>
+            <p class="des">Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceTD for the reliable and safe transport of people and payloads into Earth orbit and beyond. Falcon 9 is the world's first orbital class reusable rocket.</p>
+            <p class="des">HEIGHT: 70m</p>
+            <p class="des">DIAMETER: 3.7m</p>
+            <p class="des">MASS: 549,054 kg</p>
+            <p class="des">PAYLOAD TO LEO: 22,800 kg</p>
+            <p class="des">PAYLOAD TO GTO: 8,300 kg</p>
+            <p class="des">PAYLOAD TO MARS: 4,020 kg</p>
+        </div>
+        <div class="right">
+            <img class="vehicles-img" src="./source/falcon9model-removebg-preview.png" />
+        </div>
+    </div>
+
+    <div class="dragonvehicles" id="dragonvehicles">
+        <div class="left">
+            <p class="titlevehicles">DRAGON</p>
+            <p class="overview">OVERVIEW</p>
+            <p class="des">The Dragon spacecraft is capable of carrying up to 7 passengers to and from Earth orbit, and beyond. It is the only spacecraft currently flying that is capable of returning significant amounts of cargo to Earth, and is the first private spacecraft to take humans to the space station.</p>
+            <p class="des">HEIGHT: 8.1 m</p>
+            <p class="des">DIAMETER: 4 m</p>
+            <p class="des">CAPSULE VOLUME: 9.3m³</p>
+            <p class="des">TRUNK VOLUME: 37 m³</p>
+            <p class="des">LAUNCH PAYLOAD MASS: 6,000 kg</p>
+            <p class="des">RETURN PAYLOAD MASS: 3,000 kg</p>
+        </div>
+        <div class="right">
+            <img class="vehicles-img" src="./source/dragonview-removebg-preview.png"/>
+        </div>
+    </div>
+
+    <div class="starshipvehicles" id="starshipvehicles">
+        <div class="left">
+            <p class="titlevehicles">STARSHIP</p>
+            <p class="overview">OVERVIEW</p>
+            <p class="des">SpaceTD's Starship spacecraft and Super Heavy rocket – collectively referred to as Starship – represent a fully reusable transportation system designed to carry both crew and cargo to Earth orbit, the Moon, Mars and beyond. Starship will be the world’s most powerful launch vehicle ever developed, capable of carrying up to 150 metric tonnes fully reusable and 250 metric tonnes expendable.</p>
+            <p class="des">HEIGHT: 120 m</p>
+            <p class="des">DIAMETER: 9 m</p>
+            <p class="des">PAYLOAD CAPACITY: 100 - 150 t</p>
+            <p class="des">PROPELLANT CAPACITY: 4,600 t</p>
+            <p class="des">THRUST: 9,320 tf</p>
+            <p class="des">RETURN PAYLOAD MASS: 3,000 kg</p>
+        </div>
+        <div class="right">
+            <img class="vehicles-img" src="./source/starshipview-removebg-preview.png"/>
+        </div>
+    </div>
+
+    <footer>
+        <img src="./source/SpaceTD Logo.png" width="30%" height="30%">
+    </footer>
+
+    <script src="./borgir.js"></script>
+
+</body>
+</html>

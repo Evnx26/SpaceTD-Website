@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.navbar{
+    width: 100vw;
+    height: 12.5rem;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logospace{
+    
+    position: absolute;
+    left: 5%;
+}
+
+.borgir, .closeMenu{
+    font-size: 1.25rem;
+    display: none;
+    cursor: pointer;
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    right: 5%;
+}
+
+.li-navbar{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    list-style-type: none;
+    padding: 1.875rem;
+    margin: 0.313rem;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+
+.li-navbar:hover{
+    text-decoration: underline;
+}
+
+.vision{
+    background-image: url(./source/earth.jpg);
+    width: 100vw;
+    height: 43.75rem;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0.938rem;
+}
+
+.visionp{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.falcon1{
+    background-image: url(./source/falconbc.jpg);
+    width: 100vw;
+    height: 31.25rem;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.homelaunchvid{
+    position: relative;
+    padding-left: 1%;
+    width: 50%;
+    height: 60%;
+    padding-bottom: 20%;
+}
+
+.video-yt{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+.falcon1w{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-top: 6.25rem;
+    color: white
+}
+
+.dragon{
+    background-image: url(./source/dragonbc.jpg);
+    width: 100vw;
+    height: 31.25rem;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.dragonw{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-top: 6.25rem;
+    color: white
+}
+
+.infolaunch{
+    width: 100vw;
+    height: 21.875rem;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.totallaunch{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.number{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 5.875rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.desk{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    width: 100vw;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth{
+    background-image: url(./source/earth.jpg);
+    width: 100vw;
+    height: 43.75rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.vehicle{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 3.125rem;
+}
+
+.vehiclesname{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    position: relative;
+}
+
+.vehiclesname:hover{
+    text-decoration: underline
+}
+
+.falcon9{
+    width: 100vw;
+    height: 31.25rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 50%;
+}
+
+.titlevehicles{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.overview{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.938rem;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.des{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.right{
+    width: 50%;
+    padding-left: 1%;
+}
+
+
+.dragonvehicles{
+    width: 100vw;
+    height: 31.25rem;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.starshipvehicles{
+    width: 100vw;
+    height: 35rem;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiplanet{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    background-color: black;
+
+}
+
+.left-program{
+    width: 60%;
+    overflow-y: hidden;
+}
+
+.right-program{
+    width: 40%;
+}
+
+.programtitle{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.938rem;
+    align-items: center;
+    padding-top: 1%;
+    width: 100%;
+    padding-left: 2%;
+}
+
+.desprogram{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 100%;
+}
+
+.dragonprogram{
+    background-image: url(./source/dragondokiss.png);
+    background-size: cover;
+    width: 100vw;
+    height: 50rem;    
+}
+
+.titledragon{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+    display: flex;
+    align-items: center;
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+.despro{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
+}
+
+.launchesprogram{
+    background-color: black;
+    width: 100vw;
+    height: 31.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.arbasat{
+    width: 50%;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.starlinkmission10may{
+    width: 50%;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titlelaunches{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.datelaunch{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 2.938rem;
+    text-align: center;
+}
+
+.starshiplaunch{
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.spacedev{
+    width: 50%;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.starlink{
+    width: 50%;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dragonlaunch{
+    width: 50%;
+    padding-left: 0.625rem;
+    padding-top: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-container{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registitle{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+input, select{
+    border: 1px solid white;
+    background-color: transparent;
+    height: 50px;
+    width: 70%;
+    margin: 5%;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+button{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    height: 50px;
+    width: 30%;
+    margin: 5%;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+option {
+    background-color: black;
+}
+
+@media screen and (max-width: 1615px) {
+    .navbar .ul-navbar {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    .navbar .ul-navbar .closeMenu {
+        display: block;
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+    }
+
+    .navbar{
+        left: 5%;
+        margin-right: 5%;
+    }
+
+    .logoplace{
+        width: 50%;
+    }
+
+    .logospace{
+        left: 5%;
+        margin-right: 5%;
+        width: 30%;
+    }
+
+    .navbar .borgir {
+        display: block;
+        position: absolute;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .infolaunch{
+        flex-direction: column;
+    }
+
+    .number, .desk{
+        overflow-y: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .left-program{
+        display: none;
+    }
+
+    .right-program{
+        width: 100vw;
+        padding-left: 0%;
+    }
+
+    .programtitle{
+        font-size: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 1029px) {
+    .falcon9,.dragonvehicles,.starshipvehicles{
+        flex-direction: column;
+        height: 54rem;
+        overflow-y: hidden;
+    }  
+    .right{
+        width: 100vw;
+        height: 50%;
+        justify-content: left;
+    }
+
+    .vehicles-img{
+        width: 100vw;
+        height: 100%;
+        overflow-y: hidden;
+    }
+
+    .left{
+        width: 100vw;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .launchesprogram {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .arbasat{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .dragonlaunch{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .starlink{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .spacedev{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .starshiplaunch{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .starlinkmission10may{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .videolaunch{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .videolaunch-yt{
+        width: 100vw;
+        height: 100%;
+    }
+
+}
